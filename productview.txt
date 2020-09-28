@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MY STORE</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="my.css">
+
+
+</head>
+<body>
+
+<!-- Start of top menu css-->
+<div align="left" class="top-text">
+	<img class="logo" src="ebaylogo.png">
+</div>
+<div class="top">
+<ul>
+
+  <li><a href="reset.jsp" >Basket</a></li>
+
+</ul>
+</div>
+<!-- End of top menu -->
+
+
+<!-- Start of left menu-->
+
+<div class="vertical-menu">
+ 
+  <a href="Home.jsp">HOME</a>
+  <a class="active" href="product.jsp">Products</a>
+ 
+
+	<form action="search.jsp" method="get">
+		
+		<input type="search" name="searchWord" placeholder="Search"/>
+	</form>
+
+	<form action="search.jsp" method="get">
+
+		<input type="search" name="searchWord" placeholder="Search"/>
+	</form>
+
+</div>
+<!-- End of left menu-->
+
+<div class="table">
+
+ <%@include file="products.jsp" %>
+</div>
+
+</body>
+ 

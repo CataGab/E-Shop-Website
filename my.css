@@ -1,0 +1,288 @@
+  
+body{background-image: url("background.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+	 background-attachment: fixed;
+     margin:0px;
+     height:auto;
+}
+
+.logo {
+width:400px;
+height:235px;	
+}
+
+/* Start of left menu css*/
+.vertical-menu {
+  text-align: center;
+  position:fixed;
+  border-radius: 10px;
+  font-weight:bold;
+  margin-top: 142px;
+  font-size:30px;
+  font-family: Jokerman, cursive;
+  top:10%;
+  width: 10%;
+  background-color: rgba(100, 100, 100, 0);
+  height:100%;
+}
+
+	
+.vertical-menu a {
+    background-color: rgba(100, 100, 100, 0);
+    color: white;
+    font-weight:bold;
+    font-family: Jokerman, cursive;
+    display: block;
+    padding:12px;
+    text-decoration: none;
+}
+
+
+.vertical-menu a:hover {
+    text-shadow: 2px 2px white;
+    background-color: #4CAF50;
+    font-weight:bold;
+    color:black;
+
+
+    font-family: Jokerman, cursive;
+    color:black;
+}
+
+
+
+/* End of left menu css 
+
+   Start of top menu css */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(100, 100, 100, 0.0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height:10%;
+}
+
+li {
+    float: right;
+}
+
+li a {height:115%;
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+a:hover{text-shadow: 2px 2px white;
+ 
+}
+
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a.yellow{
+    color:yellow;
+}
+/* End of top menu css*/
+
+td {
+	font-family:Jokerman;
+	font-size:25px;
+	text-align: center;
+	color:white;
+}
+th {
+	font-family:Jokerman;
+	font-size:25px;
+	
+	color:white;
+}
+
+table{
+	border:1px solid white;
+	width:100%;
+	color:white;
+}
+
+table tr td, table tr th {
+	border:1px solid white;
+}
+
+div.table{
+	
+	margin-left:10%; 
+	margin-top:0%;
+}
+
+div.top{
+  min-width:1000px;
+  background-color: rgba(100, 100, 100, 0.5);
+	
+}
+
+.top ul {
+	margin-top: 106px;
+}
+
+
+div.top ul li{
+  float:left;
+  position:relative;
+  text-align:center;
+  width:20%;
+  top:-1px;
+  left:700px;
+  margin-right:5px;
+  padding:8px; 
+}
+
+div.top ul li a{
+  padding:5%;
+  font-size:30px;
+  font-weight:bold;
+  color: white;
+  text-decoration:none;
+  text-align: center;
+  font-family: Jokerman, cursive;
+
+}
+
+div.top ul li a:hover{
+  background-color: #4CAF50;
+  color:black;
+  border-radius: 700px;
+}
+
+/* Start search bar*/
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+	
+
+}
+
+
+input[type=text]:focus { 
+-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+    width: 30%;
+}
+
+input[type=number]{
+	font-size:20px; font-family:Jokerman;
+	width: 70%;
+	width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+	
+}
+
+input[type=number]:focus { 
+-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+    width: 100%;
+	
+}
+
+
+input[type=search]{
+	font-size:20px; font-family:Jokerman;
+	width: 70%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+	border-color: green;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+	
+}
+
+input[type=search]:focus{
+	-webkit-transition: width 0.2s ease-in-out;
+	transition: width 0.2s ease-in-out;
+    width: 100%;
+}
+
+button {
+	padding:5px 15px; 
+    background:none; 
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+	padding: 10px 24px;
+	font-family:Jokerman;
+	font-size:15px;
+	text-align: center;
+	color:white;
+	
+}
+button:hover {
+    text-shadow: 2px 2px white;
+    background-color: #4CAF50;
+    font-weight:bold;
+    color:black;
+
+
+    font-family: Jokerman, cursive;
+    color:black;
+}
+
+
+/* End search bar*/
+
+/* Start Login*/
+
+p{
+	color: white;
+    font-weight:bold;
+    font-family: Jokerman, cursive;
+    
+}
+
+h1{
+	color: white;
+    font-weight:bold;
+    font-family: Jokerman, cursive;
+}
+
+/* End Login*/
+img.bigimage{
+	width:450px; 
+	height:450px;
+}
+
+img{
+	width:40px; 
+	height:40px;
+}
+
+h2,h3{ 
+	color: white;
+    font-weight:bold;
+    font-family: Jokerman, cursive;
+}
